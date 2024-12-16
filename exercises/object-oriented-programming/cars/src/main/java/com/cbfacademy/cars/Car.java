@@ -26,6 +26,6 @@ public class Car {
         this.colour = colour;
     }
     public String getDetails(){
-        return "Make: %s Model: %s Year: %s Colour: %s", make, model, year, colour;
+        return String.format("Make: %s Model: %s Year: %s Colour: %s", make, model, year, colour);
     }
 }
